@@ -30,7 +30,7 @@ import json
 
 
 
-cred = credentials.Certificate(r"D:\MINOR PROJECT SEM-9\minor\proj\climate-informed-dss\climateinformeddss-firebase-adminsdk-o5alx-a7fd5824b9.json")
+cred = credentials.Certificate(r"climate.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 print(db)
